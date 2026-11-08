@@ -1,0 +1,32 @@
+{
+  "lesion": {
+    "train_images": 8539,
+    "val_images": 1476,
+    "val_images_whose_lesion_is_also_in_train": 0,
+    "share_leaked": 0.0,
+    "val_class_counts": [
+      187,
+      993,
+      78,
+      31,
+      148,
+      22,
+      17
+    ]
+  },
+  "image": {
+    "train_images": 8539,
+    "val_images": 1476,
+    "val_images_whose_lesion_is_also_in_train": 601,
+    "share_leaked": 0.4072,
+    "val_class_counts": [
+      164,
+      988,
+      76,
+      48,
+      162,
+      17,
+      21
+    ]
+  }
+}

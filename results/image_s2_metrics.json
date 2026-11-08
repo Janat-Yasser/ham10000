@@ -1,0 +1,70 @@
+{
+  "split": "image",
+  "run": "image_s2",
+  "seed": 2,
+  "best_epoch": 19,
+  "temperature": 1.735528588294983,
+  "melanoma_threshold": 0.21818561851978302,
+  "target_specificity_on_val": 0.9,
+  "validation": {
+    "accuracy": 0.8868563685636857,
+    "balanced_accuracy": 0.8528609891268241,
+    "recall_per_class": {
+      "MEL": 0.7621951219512195,
+      "NV": 0.9382591093117408,
+      "BCC": 0.8289473684210527,
+      "AKIEC": 0.8125,
+      "BKL": 0.7345679012345679,
+      "DF": 0.9411764705882353,
+      "VASC": 0.9523809523809523
+    },
+    "macro_auc": 0.9749542676380374,
+    "melanoma_auc": 0.9500529818560381,
+    "melanoma_sensitivity": 0.8597560975609756,
+    "melanoma_specificity": 0.899390243902439
+  },
+  "test": {
+    "accuracy": 0.8194444444444444,
+    "balanced_accuracy": 0.6953209866285144,
+    "recall_per_class": {
+      "MEL": 0.6549707602339181,
+      "NV": 0.922992299229923,
+      "BCC": 0.6666666666666666,
+      "AKIEC": 0.6744186046511628,
+      "BKL": 0.6774193548387096,
+      "DF": 0.6136363636363636,
+      "VASC": 0.6571428571428571
+    },
+    "macro_auc": 0.9649681809667251,
+    "melanoma_auc": 0.9202785736401655,
+    "melanoma_sensitivity": 0.8128654970760234,
+    "melanoma_specificity": 0.8426547352721849
+  },
+  "test_95ci": {
+    "balanced_accuracy": [
+      0.6523246747361559,
+      0.7354499986835877
+    ],
+    "macro_auc": [
+      0.9567851800788003,
+      0.9718636264853734
+    ],
+    "melanoma_auc": [
+      0.9001783989158996,
+      0.9379905385531054
+    ],
+    "melanoma_sensitivity": [
+      0.7553040947410679,
+      0.8698283355063016
+    ],
+    "melanoma_specificity": [
+      0.8227838752500796,
+      0.8614826180971391
+    ]
+  },
+  "test_ece_before": 0.09423278485025677,
+  "test_ece_after": 0.03692498939141396,
+  "n_val": 1476,
+  "n_test": 1512,
+  "n_test_melanoma": 171
+}

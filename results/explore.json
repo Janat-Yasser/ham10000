@@ -1,0 +1,37 @@
+{
+  "train_images": 10015,
+  "train_lesions": 7470,
+  "test_images": 1512,
+  "lesions_with_more_than_one_image": 1956,
+  "images_belonging_to_those_lesions": 4501,
+  "share_of_images_with_a_sibling": 0.4494,
+  "max_images_for_one_lesion": 6,
+  "lesions_with_conflicting_labels": 0,
+  "image_sizes_seen_in_sample": [
+    "600x450"
+  ],
+  "class_counts_train": {
+    "MEL": 1113,
+    "NV": 6705,
+    "BCC": 514,
+    "AKIEC": 327,
+    "BKL": 1099,
+    "DF": 115,
+    "VASC": 142
+  },
+  "class_counts_test": {
+    "MEL": 171,
+    "NV": 909,
+    "BCC": 93,
+    "AKIEC": 43,
+    "BKL": 217,
+    "DF": 44,
+    "VASC": 35
+  },
+  "diagnosis_confirmed_by": {
+    "histopathology": 5340,
+    "serial imaging showing no change": 3704,
+    "single image expert consensus": 902,
+    "confocal microscopy with consensus dermoscopy": 69
+  }
+}
