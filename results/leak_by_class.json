@@ -1,0 +1,58 @@
+{
+  "val_images": 1476,
+  "leaked_images": 601,
+  "per_class": {
+    "MEL": {
+      "val_images": 164,
+      "leaked": 125,
+      "share_leaked": 0.7621951219512195,
+      "recall_leaked": 0.7706666666666667,
+      "recall_not_leaked": 0.7094017094017094
+    },
+    "NV": {
+      "val_images": 988,
+      "leaked": 296,
+      "share_leaked": 0.29959514170040485,
+      "recall_leaked": 0.8806306306306307,
+      "recall_not_leaked": 0.9571290944123314
+    },
+    "BCC": {
+      "val_images": 76,
+      "leaked": 47,
+      "share_leaked": 0.618421052631579,
+      "recall_leaked": 0.8652482269503546,
+      "recall_not_leaked": 0.8275862068965517
+    },
+    "AKIEC": {
+      "val_images": 48,
+      "leaked": 22,
+      "share_leaked": 0.4583333333333333,
+      "recall_leaked": 0.8484848484848485,
+      "recall_not_leaked": 0.7307692307692307
+    },
+    "BKL": {
+      "val_images": 162,
+      "leaked": 87,
+      "share_leaked": 0.5370370370370371,
+      "recall_leaked": 0.8160919540229884,
+      "recall_not_leaked": 0.6711111111111111
+    },
+    "DF": {
+      "val_images": 17,
+      "leaked": 12,
+      "share_leaked": 0.7058823529411765,
+      "recall_leaked": 1.0,
+      "recall_not_leaked": 0.8666666666666667
+    },
+    "VASC": {
+      "val_images": 21,
+      "leaked": 12,
+      "share_leaked": 0.5714285714285714,
+      "recall_leaked": 1.0,
+      "recall_not_leaked": 0.8518518518518517
+    }
+  },
+  "balanced_accuracy_leaked": 0.8830174752507842,
+  "balanced_accuracy_not_leaked": 0.8020736958727791,
+  "note": "recalls are means over the three image-split runs (seeds 42, 1, 2)"
+}
